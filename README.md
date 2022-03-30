@@ -1,2 +1,2 @@
 # HTML
-These projects are part of a class dealing with the fundamental principals of networks and web development. 
+The project in this repo are part a university clas dealing with the fundamental principals of networks and web development.
