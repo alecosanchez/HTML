@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+        document.write("<h2>Thanks for visiting my page</h2>");
+        </script>
+</head>
+<body>
+    <input type="text" id = "colorInputText">
+    <input type = "color" id = "colorInputColor">
+    <input type="button" id = "colorButton" value = "Click to change color" 
+    onclick = "changeColor()">
+    <script>
+        function changeColor() {
+            let color = document.getElementById('colorInputText').value;
+            document.body.style.backgroundColor = color;
+            document.body.style.textDecorationColor = color
+        }
+    </script>
+</body>
+<body>
+    <script>
+
+        let adj=prompt("Write an adjective!");
+        let verb=prompt("Write a verb!");
+        let noun = prompt("Write a noun!")
+        document.write("<h2> Once, there was a very <i>"+adj+"</i> dog named spot. Spot loved to <i>"+verb+"</i> so much that he turned into a <i>"+noun+"</i>!</h2>");
+    </script>
+</body>
+
+</body>
+    <a style="color:orange;" href="https://www.google.com/logos/2010/pacman10-i.html">Click here to play some Pacman!</a>
+    </body>
+</html>
